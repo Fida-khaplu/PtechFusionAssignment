@@ -1,0 +1,9 @@
+.mainSearchBar{
+    & .selectClass{
+        & .searchSelectClass{
+            border: 1px solid #2E2E55;
+            background: #0E0E26;
+            color: #A7A7CC;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.HomeClass {
+  background: #000000;
+  & .homeMainClass {
+    width: 90%;
+    margin: auto;
+    & .HomeCardbtnClass {
+        margin-top: 20px;
+        & .btnLive{
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0px;
+            border: none;
+            background: #0e0e26;
+            color: #1ECBE3;
+        }
+
+        & .finishedBtn{
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0px;
+            border: none;
+            color: #A7A7CC;
+            background: #000000;
+        }
+      }
+    & .homeMainCardClass {
+      background: #0e0e26;
+      
+      
+      & .homeCardClass {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding: 30px 0px;
+      }
+    }
+  }
+}

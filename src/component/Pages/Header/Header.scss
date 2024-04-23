@@ -1,0 +1,45 @@
+.HeaderMainDiv {
+  background-color: #0e0e26;
+  padding: 15px 0px;
+
+  & .HeaderLeftDiv {
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+   
+
+    & .HeaderLeftFirstDiv {
+         width: 100%;
+         display: flex;
+      & .LeftSpan {
+        font-weight: 700;
+        width: 15%;
+        border-right: 1px solid;
+      }
+      & .RightSpan {
+        font-weight: 600;
+        width: 85%;
+        text-align: center;
+      }
+    }
+  }
+
+  & .HeaderRightDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    & .headerRightSpanCLass{
+      margin-right: 10px;
+      
+    }
+
+    & .avatarClass{
+      img{
+        max-width: 100%;
+        margin-left: 10px;
+      }
+    }
+  }
+}

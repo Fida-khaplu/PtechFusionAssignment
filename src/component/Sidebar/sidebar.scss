@@ -1,0 +1,86 @@
+.sidebardiv {
+  background-color: #0e0e26;
+
+  & .logo {
+    padding: 42px 0px;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  & .headCls {
+    padding: 22px;
+    list-style: none;
+    color: #a7a7cc;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & .sidebarListClass {
+    //heading
+    & .headClsSecond {
+      color: #ffffff;
+      padding: 12px 22px;
+      display: flex;
+      justify-content: space-between;
+      background: linear-gradient(90deg, #af47f8 0%, #20c7e4 100%);
+    }
+
+    //ulclass
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        display: flex;
+        justify-content: space-between;
+        color: #a7a7cc;
+        padding: 10px 22px 10px 33px;
+        list-style: none;
+        font-size: 13px;
+        line-height: 19.5px;
+        font-weight: 600;
+        &:hover {
+          background: #1ecbe3;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  & .socialMediaMainCls {
+    color: #ffffff;
+    padding: 10px 22px 10px 33px;
+    h4 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      padding: 5px 0px;
+    }
+    & .socialMediaCls {
+      display: flex;
+
+      & .socialMediaItemCls {
+        width: 34px;
+        height: 34px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-right: 10px;
+      }
+      & .twitterCls {
+        background: #33aaed;
+      }
+      & .discordCls {
+        background: #2260da;
+      }
+      & .internetCls {
+        background: #710d89;
+      }
+      & .telegramCls {
+        background: #3e70d1;
+      }
+    }
+  }
+}

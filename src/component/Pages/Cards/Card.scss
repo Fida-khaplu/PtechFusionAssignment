@@ -1,0 +1,115 @@
+
+
+.card {
+  background: #1a1a3a;
+
+  .cardImgClass {
+    text-align: center;
+    padding: 50px 0px 10px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .cardBodyClass {
+    & .card-title {
+      color: #ffffff !important;
+      text-align: center;
+    }
+
+    & .card-text {
+      text-align: center;
+      color: #a7a7cc !important;
+    }
+
+    & .aprClass {
+      display: flex;
+      justify-content: space-between;
+      color: #a7a7cc !important;
+      width: 90%;
+      margin: auto;
+      border-bottom: 1px solid #21214a;
+    }
+
+    & .cardEarningClass {
+      padding: 20px 0px 10px;
+      margin: 0px;
+    }
+
+    & .cardImgClass2 {
+      padding: 0px;
+    }
+
+    & .hideClass {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0px;
+      & .hideClassText {
+        color: #f9b043;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+      }
+
+      & .hideClassBtn {
+        color: #a7a7cc;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+
+    & .totalStockDivClass {
+      & .totalStockDiv {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #21214A;
+        & .stackTitle {
+          color: #a7a7cc;
+          font-size: 10px;
+          font-weight: 600;
+          line-height: 15px;
+        }
+
+        & .stackDetail {
+          color: #a7a7cc;
+          font-size: 10px;
+          font-weight: 600;
+          line-height: 15px;
+          ul{
+            li{
+                list-style: none;
+            }
+            & .sphynxCls{
+                font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    & .CardLastRow{
+        & .tokenClass {
+            border: 1px solid #2E2E55;
+            color: #A7A7CC;
+            text-align: center;
+            font-size: 10px;
+            padding: 5px;
+        }
+
+        & .tokenClassSecond{
+            display: flex;
+            color: #A7A7CC;
+            font-size: 10px;
+            justify-content: space-between;
+
+            & .LastRowtokendetailClass{
+                border:  1px solid #2E2E55;
+                padding: 5px;
+                margin-top: 10px;
+                
+            }
+        }
+    }
+  }
+}
